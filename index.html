@@ -1,44 +1,123 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-   <link rel="stylesheet" href="index.css">
- </head>
- <body>
-   <form action="" id="display">
-      <input type="text" id="show" value="" placeholder="0">
-      <br>
-      <input type="button" id="sym" class="btn" value="AC" onclick="display.show.value =' ' ">
-      <input type="button" id="sym" class="btn" value="DEL" onclick="display.show.value = display.show.value.toString().slice(0, -1) ">
-      <input type="button" id="sym" class="btn" value="." onclick="display.show.value +='.' ">
-      <input type="button" id="sym" class="btn" value="%" onclick="display.show.value +='%' ">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<!-- fontawesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-      <br> 
-      <input type="button" class="btn" value="1" onclick="display.show.value +='1' ">
-      <input type="button" class="btn" value="2" onclick="display.show.value +='2' ">
-      <input type="button" class="btn" value="3" onclick="display.show.value +='3' ">
-      <input type="button" id="sym" class="btn" value="/" onclick="display.show.value +='/' ">
-      <br>
-      <input type="button" class="btn" value="4" onclick="display.show.value +='5' ">
-      <input type="button" class="btn" value="5" onclick="display.show.value +='6' ">
-      <input type="button" class="btn" value="6" onclick="display.show.value +='7' ">
-      <input type="button" id="sym" class="btn" value="*" onclick="display.show.value +='*' ">
-      <br>
-      <input type="button" class="btn" value="7" onclick="display.show.value +='7' ">
-      <input type="button" class="btn" value="8" onclick="display.show.value +='8' ">
-      <input type="button" class="btn" value="9" onclick="display.show.value +='9' ">
-      <input type="button" id="sym" class="btn" value="-" onclick="display.show.value +='-' ">
-      <br>
-      <input type="button" class="btn" value="00" onclick="display.show.value +='00' ">
-      <input type="button" class="btn" value="0" onclick="display.show.value +='0' ">
-      <input type="button" id="equal" class="btn" value="=" onclick="display.show.value = eval(display.show.value) ">
-      <input type="button" id="sym" class="btn" value="+" onclick="display.show.value +='+' ">
-      <br>
 
-   </form>
+</head>
+
+<body>
+
+    <div class="container text-uppercase bg-black text-white "><h1>Address Change History</h1></div>
+</div>
+
+<div class="container ">
+    <div class="">Home >> <span class="text">Personal Information</span></div>
+    </div><br>
    
- </body>
- </html>
+        
+<div class="container">
+    <table class="table table-bordered table-striped">
+    <thead>
+      <tr class="table-primary">
+        <th>Address Type</th>
+        <th>Permananent</th>
+        <th>Residence</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Recent</td>
+        <td>No</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td>Address Line-1</td>
+        <td>D/o Ramesh Kumar, 443</td>
+        <td>Pocket B, Near Sarita Vihar</td>
+      </tr>
+      <tr>
+        <td>Line3</td>
+        <td>virani hall road</td>
+        <td>B-500</td>
+      </tr>
+      <td>Line4</td>
+        <td>guru nagar</td>
+        <td>New Delhi</td>
+      </tr>
+      <td>City</td>
+        <td>Jasola</td>
+        <td>Delhi</td>
+      </tr>
+      <td>District</td>
+        <td>New Delhi</td>
+        <td>Delhi</td>
+      </tr>
+      <td>Pin Code</td>
+        <td>345533</td>
+        <td></td>
+      </tr>
+      <td>State</td>
+        <td>Maharastra</td>
+        <td>Delhi</td>
+      </tr>
+      <td>Valid From</td>
+        <td>13/06/2000</td>
+        <td>13/06/2024</td>
+      </tr>
+      <td>Valid Till</td>
+        <td>N.A</td>
+        <td>N.A</td>
+      </tr>
+      <td>Contact Details</td>
+        <td>98345343324</td>
+        <td>35435235432</td>
+      </tr>
+      <td>Varification Status</td>
+        <td class="table-danger">Varified</td>
+        <td class="table-danger" >Varified</td>
+      </tr>
+      <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <div class="footer">
+  </div>
+
+    </tbody>
+  
+
+</table>
+</div>
+
+
+<div class="container text-primary ">
+    <h6>Powered by e-Government Solutions Group, C-DAC Delhi Mon 18December 2023[PV 1.5.5]</h6>
+    </div><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>

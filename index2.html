@@ -2,42 +2,162 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link  href="index2.css" rel="stylesheet">
-    <!-- <script src="script.js" defer> -->
-      <script src="test.js" defer>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="style2.css" rel="stylesheet">
+<!-- fontawesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  
-    </script>
+
 </head>
 
 <body>
-    <!-- <header>
-        <h1 > <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ32818BLtUq-jgATBiCh4ill7EcCoOn5foRg&usqp=CAU" 
-            alt="logo">My Web Page</h1>
-    </header>
-    <button type="button">Player 1: charis </button>
-    
-    <div class="resultParas">
-        <p class="guesses"></p>
-        <p class="lastResult"></p>
-        <p class="lowOrHi"></p>
-      </div>
-      <label for="guessField">Enter a guess: </label>
-      <input type="number" id="guessField" class="guessField" />
-      <input type="submit" value="Submit guess" class="guessSubmit" /> -->
-      <div id="clock" role="timer" aria-live="polite" aria-atomic="true"></div>
+     <!-- NAVBAR -->
+     <nav class="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="cdac-logo.png" alt="Logo" class="d-inline-block align-text-top ">
+            </a>
+            <h3>Human Resource Management System</h3>
+        </div>
+    </nav>
 
-      <div id="parent">
-        Click parent
-        <div id="child">Click child</div>
-      </div>
+
+    <div class="container "><h1>List</h1></div>
+
+
+
+   
+        
+<!-- <div class="container">
+    <table class="table table-bordered">
+    <thead>
+      <tr class="table-primary">
+        <th>Address Type</th>
+        <th>Permananent</th>
+        <th>Residence</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Recent</td>
+        <td>No</td>
+        <td>Yes</td>
+      </tr>
+  
       
-      <button id="reset">Reset</button>
-      <pre id="output"></pre>
-      
-            
+    </tbody>
+  
+
+</table> -->
+
+
+<div class="container ">
+ 
+
+        <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+        </div>
+        </form>
+
+
+
+
+
+<!-- FOOTER -->
+<footer class="text-center text-lg-start text-light " style="background-color: #422F5E">
+
+    <div class="container-fluid text-center text-md-start pt-3 mt-3">
+
+        <div class="row mt-3">
+
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                <h5 class="text-uppercase fw-bold">About C-DAC</h5>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px" />
+                <p>
+                    The Centre for Development of Advanced Computing (C-DAC) is an Indian autonomous scientific
+                    society, operating under the Ministry of Electronics and Information Technology.
+                </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h5 class="text-uppercase fw-bold">Contact</h5>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 60px; background-color: #7c4dff; height: 2px" />
+                <p><i class="fas fa-envelope mr-3"></i> stg-delhi@cdac.in</p>
+                <p><i class="fa-solid fa-globe"></i> www.cdac.in</p>
+                <p><i class="fas fa-home mr-3"></i> Plot no. 20 FC-33 Institutional Area, Jasola, New Delhi, Delhi
+                    110025</p>
+                <p><i class="fas fa-phone mr-3"></i> + 011 2651 0221</p>
+            </div>
+        </div>
+        <hr style="background-color: #7c4dff; height: 2px">
+        <p class="text-center pb-1">© 2023 All rights reserved. Software Technology Group, C-DAC Delhi</p>
+    </div>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> 
 </body>
-
 </html>
